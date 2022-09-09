@@ -1,13 +1,13 @@
 {
-    "name": "pelmered/fake-car",
+    "name": "toggenation/fake-barcode",
     "type": "library",
-    "description": "Fake-Car is a Faker provider that generates fake car data for you.",
+    "description": "Fake-Barcode is a Faker provider that generates fake GS1 pallet barcode data for you.",
     "keywords": [
         "faker",
-        "car",
-        "vehicle",
-        "fake-car",
-        "car-faker"
+        "barcode",
+        "gs1",
+        "SSCC",
+        "GTIN14"
     ],
     "license": "MIT",
     "authors": [
