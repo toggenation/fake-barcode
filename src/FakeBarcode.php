@@ -12,6 +12,9 @@ class FakeBarcode extends \Faker\Provider\Base
      */
     public static function gtin14($ext = 0, $prefix = "1234567"): string
     {
+        if (is_null($ext)) {
+            $ext = self::randomDigit();
+        }
         $number = $ext . $prefix;
 
         $len = 13 - strlen($number);
@@ -30,6 +33,10 @@ class FakeBarcode extends \Faker\Provider\Base
      */
     public static function sscc($ext = "1", $prefix = "1234567"): string
     {
+        if (is_null($ext)) {
+            $ext = self::randomDigit();
+        }
+
         $len = 17 - strlen($ext . $prefix);
 
         $barcode = $ext . $prefix . self::serial($len);
