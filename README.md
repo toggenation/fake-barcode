@@ -17,6 +17,10 @@ Faker provider for fake GTIN14 and SSCC Barcode data
 },
 ```
 
+```
+composer update
+```
+
 
 ## Basic Usage
 ```php
