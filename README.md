@@ -5,7 +5,7 @@ Faker provider for fake GTIN14 and SSCC Barcode data
 ## Installation
 
 ```sh
-// composer.json
+// add the following to your projects composer.json
 "repositories": [
     {
         "type": "vcs",
