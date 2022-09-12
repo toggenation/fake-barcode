@@ -1,5 +1,5 @@
 # Fake-Barcode
-Faker provider for fake Barcode data
+Faker provider for fake GTIN14 and SSCC Barcode data
 
 
 ## Installation
